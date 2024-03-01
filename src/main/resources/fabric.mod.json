@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "clicker",
+  "version": "1.0",
+  "name": "Clicker",
+  "description": "click click click <3",
+  "authors": [
+    "Katacan"
+  ],
+  "license": "MIT",
+  "icon": "assets/zoomify/zoomify.png",
+  "environment": "client",
+  "entrypoints": {
+    "main": [
+      "ru.feytox.zoomify.Zoomify"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": "*",
+    "fabric": "*",
+    "minecraft": "~1.20.4",
+    "java": ">=17"
+  }
+}
