@@ -1,4 +1,4 @@
-package ru.feytox.zoomify.c.gui;
+package ru.katacan.clicker.c.gui;
 
 import io.github.cottonmc.cotton.gui.client.CottonHud;
 import io.github.cottonmc.cotton.gui.widget.WItem;

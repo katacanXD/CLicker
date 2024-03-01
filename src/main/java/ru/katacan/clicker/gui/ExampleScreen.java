@@ -1,4 +1,4 @@
-package ru.feytox.zoomify.gui;
+package ru.katacan.clicker.gui;
 
 import io.github.cottonmc.cotton.gui.GuiDescription;
 import io.github.cottonmc.cotton.gui.client.CottonClientScreen;

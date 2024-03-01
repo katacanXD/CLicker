@@ -1,16 +1,16 @@
-package ru.feytox.zoomify.gui;
+package ru.katacan.clicker.gui;
 
 import io.github.cottonmc.cotton.gui.client.LightweightGuiDescription;
 import io.github.cottonmc.cotton.gui.widget.*;
 import net.fabricmc.fabric.api.util.TriState;
 import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
-import ru.feytox.zoomify.Config;
-import ru.feytox.zoomify.Zoomify;
+import ru.katacan.clicker.Clicker;
+import ru.katacan.clicker.Config;
 
 public class SettingsGui extends LightweightGuiDescription {
-    public static final Identifier SUPER_OFF_IMAGE = new Identifier(Zoomify.MOD_ID, "textures/image_off.png");
-    public static final Identifier SUPER_ON_IMAGE = new Identifier(Zoomify.MOD_ID, "textures/image_on.png");
+    public static final Identifier SUPER_OFF_IMAGE = new Identifier(Clicker.MOD_ID, "textures/image_off.png");
+    public static final Identifier SUPER_ON_IMAGE = new Identifier(Clicker.MOD_ID, "textures/image_on.png");
 
     public SettingsGui() {
 

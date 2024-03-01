@@ -1,4 +1,4 @@
-package ru.feytox.zoomify;
+package ru.katacan.clicker;
 
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.event.lifecycle.v1.ClientLifecycleEvents;
@@ -8,14 +8,14 @@ import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
-import ru.feytox.zoomify.c.cControls;
-import ru.feytox.zoomify.gui.ExampleScreen;
-import ru.feytox.zoomify.gui.SettingsGui;
+import ru.katacan.clicker.c.cControls;
+import ru.katacan.clicker.gui.ExampleScreen;
+import ru.katacan.clicker.gui.SettingsGui;
 
-import static ru.feytox.zoomify.Config.load;
+import static ru.katacan.clicker.Config.load;
 
 
-public class Zoomify implements ModInitializer {
+public class Clicker implements ModInitializer {
     public static final String MOD_ID = "clicker";
 
     private static KeyBinding registerKey(String keyname, int key) {
@@ -38,7 +38,7 @@ public class Zoomify implements ModInitializer {
         ClientLifecycleEvents.CLIENT_STARTED.register(this::clientStart);
 
 
-        ru.feytox.zoomify.command.Command.init();
+        ru.katacan.clicker.command.Command.init();
 
         Config.lClickDelayInt = 10;
 

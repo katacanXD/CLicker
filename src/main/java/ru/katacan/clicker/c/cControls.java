@@ -1,12 +1,12 @@
-package ru.feytox.zoomify.c;
+package ru.katacan.clicker.c;
 
 import io.github.cottonmc.cotton.gui.client.CottonHud;
 import net.minecraft.client.MinecraftClient;
 import net.minecraft.client.option.KeyBinding;
 import net.minecraft.client.util.InputUtil;
 import org.lwjgl.glfw.GLFW;
-import ru.feytox.zoomify.Config;
-import ru.feytox.zoomify.c.gui.Hud;
+import ru.katacan.clicker.Config;
+import ru.katacan.clicker.c.gui.Hud;
 
 public class cControls {
 

@@ -1,8 +1,8 @@
-package ru.feytox.zoomify.command;
+package ru.katacan.clicker.command;
 
 import net.fabricmc.fabric.api.client.command.v2.ClientCommandRegistrationCallback;
-import ru.feytox.zoomify.Config;
-import ru.feytox.zoomify.c.cControls;
+import ru.katacan.clicker.Config;
+import ru.katacan.clicker.c.cControls;
 
 import static net.fabricmc.fabric.api.client.command.v2.ClientCommandManager.literal;
 
