@@ -8,18 +8,21 @@
     "Katacan"
   ],
   "license": "MIT",
-  "icon": "assets/zoomify/zoomify.png",
-  "environment": "client",
+  "icon": "assets/clicker/zoomify.png",
+  "environment": "*",
   "entrypoints": {
     "main": [
-      "ru.feytox.zoomify.Zoomify"
+      "ru.katacan.clicker.Clicker"
     ]
   },
 
   "depends": {
-    "fabricloader": "*",
-    "fabric": "*",
-    "minecraft": "~1.20.4",
-    "java": ">=17"
+    "fabricloader": ">=0.16.10",
+    "fabric-api": "*",
+    "minecraft": "~1.21.3",
+    "java": ">=21"
+  },
+  "suggests": {
+    "another-mod": "*"
   }
 }
